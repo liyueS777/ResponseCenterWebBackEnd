@@ -1,0 +1,113 @@
+*{ margin: 0; padding: 0;}
+a { text-decoration: none;}
+ul, li{ list-style: none; -webkit-padding-start: 0px; -webkit-margin-before: 0; -webkit-margin-after: 0;}
+.el-dialog__wrapper{
+  overflow-x: hidden;
+}
+.g-head {
+  position: relative;
+  .title-icon {
+    position: absolute;
+    left:20px;
+    top:5px;
+    line-height: 36px;
+    color:#bfcbd9;
+    font-size: 20px;
+  }
+  border-top: 1px solid transparent;
+  background-color: #fff;
+  h2 {
+    font-weight: 500;
+    margin:5px 0;
+    text-align: center;
+    line-height: 36px;
+    color: #484A4B;
+  }
+  .el-breadcrumb {
+    background-color: #F4F5F6;
+    line-height: 36px;
+    padding:0 20px;
+    .el-icon-share{
+      float: left;
+      color: #ABAFB8;
+      line-height:31px;
+      font-size: 13px;
+      margin-right: 10px;
+    }
+    .el-breadcrumb__item__inner {
+      color: #3AA7F3;
+      cursor: text;
+    }
+    .el-breadcrumb__item:last-child .el-breadcrumb__item__inner {
+      color: #444F55;
+    }
+  }
+}
+
+.g-body {
+  padding: 0 20px;
+  .m-input-group {      
+    .input-group {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      .input-group{
+        margin-left: 10px;
+      }
+      .el-select {
+        width: 120px;
+      }
+    }
+    background-color: #fff;
+    padding: 10px;
+  }
+  .z-name {
+    cursor: pointer;
+  }
+}
+
+.g-footer,.m-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.g-footer{
+  justify-content: flex-end;
+}
+.m-buttons{
+  margin: 5px 0 15px;
+  justify-content: flex-start;
+  .el-button--default {
+    color: #76838F;
+  }
+  .el-icon-plus,.el-icon-close{
+    margin-right: 5px;
+  }
+  .el-icon-close {
+    font-size: 12px;
+    color: #76838F;
+  }
+  .el-icon-plus {
+    font-size: 12px;
+  }
+}
+.m-body{
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+}
+.m-transfer{
+  .el-transfer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    .el-transfer-panel{
+      width: 400px;
+      height: 320px;
+    }
+  }
+}
+
+.el-textarea.is-disabled .el-textarea__inner, .el-input.is-disabled .el-input__inner{
+  color: #333;
+}
